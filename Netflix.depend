@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1756476854 source:c:\users\mateus\documents\linguagem c\algoritmo e estrutura de dados l - ufu\netflix\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+	"list.h"
+
+1756476997 source:c:\users\mateus\documents\linguagem c\algoritmo e estrutura de dados l - ufu\netflix\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"list.h"
+
+1756476558 c:\users\mateus\documents\linguagem c\algoritmo e estrutura de dados l - ufu\netflix\list.h
+	"list.h"
+
