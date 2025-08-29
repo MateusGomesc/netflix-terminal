@@ -1,4 +1,4 @@
-# Netflix no terminal
+# :movie_camera: Netflix no terminal
 
 ## Introdução
 
