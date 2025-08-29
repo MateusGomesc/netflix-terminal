@@ -134,14 +134,14 @@ int openUrl(ListSeries* l, char* title)
 ```
 
 Recebe uma lista de séries e uma string indicando o titulo da série. <br/>
-Função para abrir no navegador a série indicada no parâmetro title.
+Função para abrir no navegador a série indicada no parâmetro title, procurando na lista de séries recebida pelo título, quando encontra, pega a url da série e chama o comando para abrir o link no navegador.
 
 ```c
 void trim(char *str)
 ```
 
 Recebe uma string e não tem retorno.
-Função para retirar espaços em branco do ínicio e do final da string.
+Função para retirar espaços em branco do ínicio e do final da string. Utilizada na função ``loadData`` para retirar os espaços em brancos deixados nas strings quando os valores são pegos dos arquivos.
 
 ### Structs
 
