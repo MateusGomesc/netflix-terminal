@@ -210,6 +210,14 @@ Nome do usuário | título | descrição | url para trailer no Youtube\n
 
 ## Exemplos de Uso
 
+### Criação da lista
+
+Para realizar a crição de uma lista de usuários, utilize o seguinte código, o qual cria um ponteiro do tipo ``ListUsers`` e chama a função ``createListUsers`` para criar a lista na memória.
+
+```c
+ListUsers* listUsers = createListUsers();
+```
+
 ### Andando pela lista
 
 Na situação a seguir é feito um tratamento de erro onde a váriavel ``opc`` guarda o número do usuário ao qual devo pegar a lista de séries pra ser exibida. <br/>
@@ -260,3 +268,22 @@ switch(opc){
       continue;
 }
 ```
+
+### Liberando a lista da memória
+
+No final do código, lembre-se de eliminar todos os nós da lista para não haver vazamento de memória. Utiliza a função ``freeListUsers`` que faz a liberação de maneira segura como no exemplo abaixo:
+
+```c
+freeListUsers(listUsers);
+```
+
+## Conclusão
+
+O trabalho foi um excelente meio de fixação do contéudo visto em aula, mostrar a utilização das estruturas de dados no meio comercial de uma maneira interessante e divertida. Foi possível aprender ainda mais sobre a ementa da disciplina e também conceitos que vão além, como por exemplo comandos de terminal para navegação web.
+
+### Melhorias que podem ser implementadas
+
+* Inserção de novas séries por usuário
+* Remoção de séries pelo usuário
+* Melhoras na interface
+
